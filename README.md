@@ -1,32 +1,3 @@
-name: Generate Snake
-
-on:
-  schedule: # ہر 12 گھنٹے بعد update ہوگا
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: SaimPaluan
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 # 💫 About Me:
 👋 Hi, I'm Saim<br>🔐 Aspiring Cyber Security Enthusiast<br>💻 Exploring Ethical Hacking, Linux & Programming<br>🌱 Learning new technologies and improving my skills<br>🚀 Future Cyber Security Professional
