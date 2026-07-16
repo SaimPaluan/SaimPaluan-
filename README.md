@@ -1,14 +1,4 @@
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0E3386,100:000000&height=200&section=header&text=Saim%20Paluan&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Aspiring%20Cyber%20Security%20Expert%20from%20Pakistan&descAlignY=55" />
-</p>
-
-<p align="center">
-  [[Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Ethical+Hacking+Enthusiast;Linux+%26+Python+Lover;C%2B%2B+%7C+Java+%7C+Django+Developer;Future+Cyber+Security+Professional)](https://git.io/typing-svg)
-</p>
-
----
-
 🚀 About Me:
 - 🔭 I’m currently working on **Linux & Python for Cybersecurity**
 - 🌱 I’m currently learning **Ethical Hacking, Network Security**
